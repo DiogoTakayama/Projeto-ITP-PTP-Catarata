@@ -94,6 +94,14 @@ de um máximo na matriz A, por exemplo, podemos, ao invés de procurar
 apenas pelo maior valor de A, buscar pelos n maiores valores, que
 representam as n circunferências detectadas pelo algoritmo.
 
+3.​ ​ ​ ​Classificação
+Analisar cada pixel da pupila e determinar se é um pixel de catarata ou não
+de acordo com um limiar (threshold = 60%-70%). Fazer a contagem de todos os
+pixels de catarata presentes na pupila e analisar a quantidade dos mesmos em
+relação a quantidade de pixel total, resultando em uma porcentagem de
+comprometimento da pupila.
+
+
 COMPILAÇÃO
 
 Para compilar o projeto, é necessário somente inserir o comando 'make' enquanto estiver no diretório do projeto, ou inserir os seguintes comandos:
