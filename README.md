@@ -94,3 +94,11 @@ de um máximo na matriz A, por exemplo, podemos, ao invés de procurar
 apenas pelo maior valor de A, buscar pelos n maiores valores, que
 representam as n circunferências detectadas pelo algoritmo.
 
+COMPILAÇÃO
+
+Para compilar o projeto, é necessário somente inserir o comando 'make' enquanto estiver no diretório do projeto, ou inserir os seguintes comandos:
+'gcc -o a.out main.c io.c operacoes.c -lm'
+
+para carregar a imagem por parametro:
+./a.out -i <input-image>.ppm
+
